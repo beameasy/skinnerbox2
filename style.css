@@ -7,7 +7,7 @@ body {
   align-items: center;
   background: rgb(131,58,180);
   background-image: url(012.png);
-  align-items: center;
+  background-position: center center;
   color: white;
   height: 100%;
 }
