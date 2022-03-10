@@ -64,7 +64,7 @@ h1 {
   letter-spacing: -1px;
 }
 h1 a {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .invite {
   overflow-wrap: break-word;
@@ -125,7 +125,7 @@ tr img {
   height: 20px;
 }
 tr a {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .token {
   background: rgba(0,0,0,0.3);

@@ -13,7 +13,7 @@
 <script src="connect.js"></script>
 <script id="template" type="text/x-handlebars-template">
   <img src="{{image}}">
-  <h1><a href=".">{{title}}</a></h1>
+  <h1><a href=".">LILIUM</a></h1>
   <div class='label'>{{price}}</div>
   <div class='label'>{{current}}/{{supply}}</div>
   <div class='minter'>
@@ -71,6 +71,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       max: invite.condition.converted.limit,
       price: `${invite.condition.converted.eth} ETH`,
       current: nextId,
+          minted: parseInt(nextId) - 1,
       supply: config.converted.supply,
       account: f0.account,
       key: key,
