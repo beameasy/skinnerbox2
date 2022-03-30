@@ -53,7 +53,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   })
   try {
     let { f0, web3 } = await connect(c)
-    const { key, address } = f0.parseURL(location.href)
+    let address = "0xF25f4F4f6517101dC947D1C0370571eBDD25f14a"
+    let key = "0x0000000000000000000000000000000000000000000000000000000000000000"
     let invite = await f0.invite(key)
     let placeholder = await f0.placeholder()
     const name = await f0.name()
